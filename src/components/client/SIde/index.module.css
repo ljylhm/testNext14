@@ -1,0 +1,8 @@
+.container{
+    width: 180px;
+    border-right: 1px solid #ededed;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    height: calc(100vh - 60px);
+}

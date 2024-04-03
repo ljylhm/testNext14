@@ -1,0 +1,101 @@
+:root {
+	// 常用字体大小
+	--title-size: 14px;
+	// 标题颜色
+	--title-color: #273249;
+	// 描述的颜色
+	--desc-color: #979BA5;
+	// 元素线条的颜色（边框，下边界）
+	--border-color: #EDEDED;
+	// 线条的颜色
+	--line-bg-color: #DCDFE6;
+	// 字体高亮颜色
+	--light-color: #D7000F;
+	// 常用背景的默认底色(input框 按钮)
+	--box-bg-color: #F3F4F8;
+	// 某些场景下会用到颜色
+	--topic-item-color: #3B404A;
+	// 某些块下的背景色
+	--block-bg-color: #f4f7fd96;
+
+	// 头部input框的宽度
+	--header-input-width: 600px;
+	// 头部右边每个部分的间距
+	--header-item-left: 32px;
+	// 头部高度
+	--header-height: 60px;
+
+	// 侧边栏展开时候的宽度
+	// --side-width: 256px;
+	--side-width: 216px;
+	// 侧边栏收缩时候的宽度
+	--side-shrink-width: 256px;
+	// 侧边栏中每个栏目的间距
+	--side-item-top: 26px;
+	// 侧边栏左侧的间距
+	--side-space-left: 28px;
+	// 侧边栏标题的字体大小
+	--side-title: 16px;
+
+	// 侧边栏弹窗宽度
+	--side-modal-width: 700px;
+	// 侧边栏弹窗宽度
+	--side-modal-title: 18px;
+	// 侧边栏弹窗颜色
+	--side-modal-color: #3B404A;
+	// 侧边栏选择小部分宽度
+	--side-small-width: 316px;
+	// 侧边栏选择小部分高度
+	--side-small-height: 350px;
+
+	// 主要区域离左边
+	--main-left: 112px;
+    // 主要区域距离上边
+	--main-top: 24px;
+
+	// 列表组件宽度
+	--list-image-width: 220px;
+	// 列表组件高度
+	--list-image-height: 135px;
+	// 没有图片列表组件高度
+	--list-no-image-height: 100px;
+	// 列表外层包裹宽度
+	--list-width: 998px
+}
+
+/* 当屏幕宽度大于等于1280px时 */
+@media (max-width: 1280px) {
+	:root {
+		--header-input-width: 280px;
+
+		--main-left: 48px;
+		--list-image-width: 166px;
+		--list-image-height: 102px;
+		--list-width: 768px;
+
+		--side-space-left: 0px;
+		--side-width: 80px;
+
+	}
+}
+
+/* 当屏幕宽度大于等于1580px时 */
+@media (max-width: 1580px) {
+	:root {
+		--main-left: 48px;
+	}
+}
+
+.ant-modal-mask, .ant-message, .ant-popover, .ant-notification{
+	z-index: 3000;
+}
+
+.ant-modal-wrap{
+	z-index: 3001;
+}
+
+
+.smm-toolbar{
+	visibility: hidden;
+	top: 10000;
+}
