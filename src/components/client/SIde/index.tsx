@@ -5,7 +5,9 @@ const Side = () => {
     return <div className={Style.container}>
         <SideItem />
         <SideItem />
-    </div>
+    </div> 
 }
 
+
 export default Side
+
