@@ -29,7 +29,7 @@ function UpLoad() {
       if (response.ok) {
         alert(result.message);
       } else {
-        alert(result.error || '上传失败123');
+        alert(result.error || '上传失败1233');
       }
     } catch (error) {
       console.error('上传出错:', error);
