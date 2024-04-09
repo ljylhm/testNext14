@@ -11,9 +11,6 @@ dependencies:
   '@prisma/client':
     specifier: ^5.11.0
     version: 5.11.0(prisma@5.11.0)
-  '@smm/hooks':
-    specifier: ^0.0.10
-    version: 0.0.10
   antd:
     specifier: ^5.15.4
     version: 5.15.4(react-dom@18.2.0)(react@18.2.0)
@@ -486,39 +483,6 @@ packages:
   /@rushstack/eslint-patch@1.8.0:
     resolution: {integrity: sha512-0HejFckBN2W+ucM6cUOlwsByTKt9/+0tWhqUffNIcHqCXkthY/mZ7AuYPK/2IIaGWhdl0h+tICDO0ssLMd6XMQ==}
     dev: true
-
-  /@smm/cookie@1.0.19:
-    resolution: {integrity: sha512-3Y5RyEf8TGysAsCRL2WvAFTf/SGX4TqY651OWDmZ838PgHdPft4h+ZRxcYYPiESmbPoSPQ550GY38OfDAYxjCg==}
-    dependencies:
-      '@smm/result': 1.1.8
-    dev: false
-
-  /@smm/hooks@0.0.10:
-    resolution: {integrity: sha512-ETDhWos/UemMfDtnY5HmNmVzwyHoCH5etfKafU5IwRDldKoHe6skwMyKIO/fTzqkZVmXLHAQLL4i4NeNNT9hDg==}
-    dependencies:
-      '@smm/sa': 2.0.9
-      '@smm/utils': 0.0.6
-    dev: false
-
-  /@smm/result@1.1.8:
-    resolution: {integrity: sha512-reI6+vQ+2t/J3MtGRwN68excSWaNgWlXHvhxEDVMaS6TeJ77PT0j4aO9u7N4YZNz9NmeLgiU2h/zEvEVnTNH6w==}
-    dev: false
-
-  /@smm/sa@2.0.9:
-    resolution: {integrity: sha512-zP2UjOUXN1J6MS9SkIJGXTwJFbPYTN885UK0jKfN6l43z7jcuLJM4BOT7EPmBm4byJ/i1BWU8TsT9Ls/JS1HXg==}
-    dependencies:
-      '@smm/cookie': 1.0.19
-      '@smm/utils': 0.0.6
-      '@smm/uuid': 1.0.10
-    dev: false
-
-  /@smm/utils@0.0.6:
-    resolution: {integrity: sha512-wYUi8gTkfSTm/o7TjaheQyL8qrRvA3Eb5IfV7sIui1Ly0AL47kZkgtc4QcstnhVDzAMZLuBzbc413fk06IrpTQ==}
-    dev: false
-
-  /@smm/uuid@1.0.10:
-    resolution: {integrity: sha512-MD9odEGVSLAlOsGnqDS0Ufs74lVd4fvVz4tprGdJc8pOH9jgC42I32YinAXR0HxGbrFTWr/45cFSBdlb509Pbg==}
-    dev: false
 
   /@swc/helpers@0.5.2:
     resolution: {integrity: sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==}
@@ -1131,7 +1095,7 @@ packages:
     dev: true
 
   /emoji-regex@8.0.0:
-    resolution: {integrity: sha1-6Bj9ac5cz8tARZT4QpY79TFkzDc=}
+    resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
     dev: true
 
   /emoji-regex@9.2.2:
@@ -1914,7 +1878,7 @@ packages:
     dev: true
 
   /is-fullwidth-code-point@3.0.0:
-    resolution: {integrity: sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0=}
+    resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==}
     engines: {node: '>=8'}
     dev: true
 
